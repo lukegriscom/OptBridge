@@ -48,7 +48,9 @@ anchored to the live streaming mark.
 - Multi-leg positions aggregate into one surface; a "Considering" mode renders
   hypothetical entries through the same engine before any order exists
 
-Designed as a static mockup first, then built to match:
+Designed as a static mockup first, then built to match. The mockup is generated from a real
+market snapshot (GOOG 09/04/26 350 call, 2026-08-17) using the same Black-Scholes solve and
+lognormal cone math as the live view — the iso-R contours are solved for, not drawn by hand:
 
 <img src="assets/position_surface_mockup.svg" width="680" alt="Position Surface design mockup">
 

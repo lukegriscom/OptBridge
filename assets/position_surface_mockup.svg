@@ -1,21 +1,21 @@
 <svg viewBox="0 0 680 598" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Arial, Helvetica, sans-serif">
 <title>OptBridge Position Surface mockup with Horizon control</title>
-<desc>A forward-only options P&amp;L heatmap for a SPY 565 call, 24 days to expiry, shown in the macro (full-life) timeframe with a dates axis. Includes iso-R profit contours, a live implied-volatility probability cone, a live spot marker, an expiry payoff strip, a Horizon toggle for micro/macro timeframes, a position rail with mixed DTEs, and a live greeks and risk row.</desc>
+<desc>A forward-only options P&amp;L heatmap for a GOOG 350 call, 17 days to expiry, shown in the macro (full-life) timeframe with a dates axis. Prices are a real market snapshot from 2026-08-17. Includes iso-R profit contours, a live implied-volatility probability cone, a live spot marker, an expiry payoff strip, a Horizon toggle for micro/macro timeframes, a position rail with mixed DTEs, and a live greeks and risk row.</desc>
 <defs>
 <linearGradient id="valueGrad" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.60"/>
-<stop offset="20%" stop-color="#2DD4BF" stop-opacity="0.38"/>
-<stop offset="30%" stop-color="#14B8A6" stop-opacity="0.16"/>
-<stop offset="37%" stop-color="#0B1116" stop-opacity="0"/>
-<stop offset="45%" stop-color="#F43F5E" stop-opacity="0.14"/>
-<stop offset="72%" stop-color="#F43F5E" stop-opacity="0.34"/>
-<stop offset="100%" stop-color="#F43F5E" stop-opacity="0.52"/>
+<stop offset="0.0%" stop-color="#2DD4BF" stop-opacity="0.6"/>
+<stop offset="14.0%" stop-color="#2DD4BF" stop-opacity="0.38"/>
+<stop offset="26.0%" stop-color="#14B8A6" stop-opacity="0.16"/>
+<stop offset="34.0%" stop-color="#0B1116" stop-opacity="0"/>
+<stop offset="43.0%" stop-color="#F43F5E" stop-opacity="0.14"/>
+<stop offset="72.0%" stop-color="#F43F5E" stop-opacity="0.34"/>
+<stop offset="100.0%" stop-color="#F43F5E" stop-opacity="0.52"/>
 </linearGradient>
 <linearGradient id="expiryGrad" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.85"/>
-<stop offset="40%" stop-color="#2DD4BF" stop-opacity="0.30"/>
-<stop offset="44%" stop-color="#F43F5E" stop-opacity="0.55"/>
-<stop offset="100%" stop-color="#F43F5E" stop-opacity="0.55"/>
+<stop offset="0.0%" stop-color="#2DD4BF" stop-opacity="0.85"/>
+<stop offset="30.0%" stop-color="#2DD4BF" stop-opacity="0.3"/>
+<stop offset="34.0%" stop-color="#F43F5E" stop-opacity="0.55"/>
+<stop offset="100.0%" stop-color="#F43F5E" stop-opacity="0.55"/>
 </linearGradient>
 <radialGradient id="spotGlow" cx="50%" cy="50%" r="50%">
 <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.9"/>
@@ -35,28 +35,28 @@
 <text x="316" y="24" font-size="10" font-weight="bold" fill="#E6EEF7">Surface</text>
 <text x="372" y="24" font-size="10" fill="#5B6B7A">Analytics</text>
 <text x="438" y="24" font-size="10" fill="#5B6B7A">Monte Carlo</text>
-<text x="536" y="24" font-size="10" fill="#93A4B3">SPY </text>
-<text x="560" y="24" font-size="10" font-weight="bold" fill="#E6EEF7">559.20</text>
+<text x="518" y="24" font-size="10" fill="#93A4B3">GOOG</text>
+<text x="556" y="24" font-size="10" font-weight="bold" fill="#E6EEF7">340.69</text>
 <circle cx="612" cy="20" r="3.5" fill="#34D399"/>
-<text x="620" y="24" font-size="9.5" fill="#34D399">LIVE 13:47 ET</text>
+<text x="620" y="24" font-size="9.5" fill="#34D399">LIVE 13:52 ET</text>
 
 <!-- position rail (mixed DTE chips) -->
 <rect x="14" y="48" width="158" height="28" rx="6" fill="#0F2A2A" stroke="#2DD4BF" stroke-width="1.2"/>
-<text x="24" y="65" font-size="10" fill="#E6EEF7">SPY 565C · 24DTE</text>
-<text x="164" y="65" font-size="10" font-weight="bold" fill="#2DD4BF" text-anchor="end">+0.6R</text>
+<text x="24" y="65" font-size="10" fill="#E6EEF7">GOOG 350C · 17DTE</text>
+<text x="164" y="65" font-size="10" font-weight="bold" fill="#FB7185" text-anchor="end">-0.7R</text>
 <rect x="180" y="48" width="132" height="28" rx="6" fill="#0E1519" stroke="#1E2A33" stroke-width="1"/>
-<text x="189" y="65" font-size="10" fill="#93A4B3">QQQ 490C · 4DTE</text>
-<text x="304" y="65" font-size="10" font-weight="bold" fill="#2DD4BF" text-anchor="end">+1.2R</text>
+<text x="189" y="65" font-size="9" fill="#93A4B3">AMD 505C · 17DTE</text>
+<text x="304" y="65" font-size="9" font-weight="bold" fill="#2DD4BF" text-anchor="end">+0.9R</text>
 <rect x="320" y="48" width="128" height="28" rx="6" fill="#0E1519" stroke="#1E2A33" stroke-width="1"/>
-<text x="329" y="65" font-size="10" fill="#93A4B3">AAPL 230C · 0DTE</text>
-<text x="440" y="65" font-size="10" fill="#FB7185" text-anchor="end">−0.4R</text>
+<text x="329" y="65" font-size="9" fill="#93A4B3">WDC 500C · 17DTE</text>
+<text x="440" y="65" font-size="9" font-weight="bold" fill="#2DD4BF" text-anchor="end">+5.0R</text>
 <text x="460" y="60" font-size="7.5" fill="#5B6B7A">CONSIDERING</text>
 <rect x="522" y="48" width="142" height="28" rx="6" fill="#0B1116" stroke="#5B6B7A" stroke-width="1" stroke-dasharray="3 3"/>
-<text x="531" y="65" font-size="10" fill="#93A4B3">NVDA 130C · 31DTE</text>
+<text x="531" y="65" font-size="10" fill="#93A4B3">NVDA 240C · 32DTE</text>
 <text x="656" y="65" font-size="9" fill="#5B6B7A" text-anchor="end">sim</text>
 
 <!-- surface title -->
-<text x="52" y="94" font-size="12" font-weight="bold" fill="#E6EEF7">SPY 565C  ·  24DTE  ·  exp Jul 26</text>
+<text x="52" y="94" font-size="12" font-weight="bold" fill="#E6EEF7">GOOG 350C  ·  17DTE  ·  exp Sep 4</text>
 
 <!-- Horizon segmented control -->
 <text x="410" y="94" font-size="8" fill="#5B6B7A" text-anchor="end">HORIZON</text>
@@ -75,74 +75,79 @@
 <g clip-path="url(#plot)">
 <rect x="52" y="104" width="560" height="342" fill="url(#valueGrad)"/>
 <!-- grid -->
-<line x1="52" y1="198" x2="612" y2="198" stroke="#FFFFFF" stroke-opacity="0.05"/>
-<line x1="52" y1="285" x2="612" y2="285" stroke="#FFFFFF" stroke-opacity="0.05"/>
-<line x1="52" y1="391" x2="612" y2="391" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<line x1="52" y1="172" x2="612" y2="172" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<line x1="52" y1="239" x2="612" y2="239" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<line x1="52" y1="311" x2="612" y2="311" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<line x1="52" y1="378" x2="612" y2="378" stroke="#FFFFFF" stroke-opacity="0.05"/>
 <line x1="192" y1="104" x2="192" y2="446" stroke="#FFFFFF" stroke-opacity="0.04"/>
 <line x1="332" y1="104" x2="332" y2="446" stroke="#FFFFFF" stroke-opacity="0.04"/>
 <line x1="472" y1="104" x2="472" y2="446" stroke="#FFFFFF" stroke-opacity="0.04"/>
 
 <!-- probability cone (multi-day) -->
-<path d="M52,285 L612,120 L612,432 Z" fill="#2DD4BF" fill-opacity="0.05"/>
-<path d="M52,285 L612,164 L612,406 Z" fill="#2DD4BF" fill-opacity="0.09"/>
-<line x1="52" y1="285" x2="612" y2="120" stroke="#2DD4BF" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="4 3"/>
-<line x1="52" y1="285" x2="612" y2="432" stroke="#2DD4BF" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="4 3"/>
-<line x1="52" y1="285" x2="612" y2="164" stroke="#2DD4BF" stroke-opacity="0.5" stroke-width="1" stroke-dasharray="4 3"/>
-<line x1="52" y1="285" x2="612" y2="406" stroke="#2DD4BF" stroke-opacity="0.5" stroke-width="1" stroke-dasharray="4 3"/>
-<text x="586" y="133" font-size="8" fill="#2DD4BF" fill-opacity="0.8">+2σ</text>
-<text x="586" y="178" font-size="8" fill="#2DD4BF" fill-opacity="0.9">+1σ</text>
-<text x="586" y="428" font-size="8" fill="#2DD4BF" fill-opacity="0.8">−2σ</text>
+<path d="M52.0,284.2 L66.0,257.4 L80.0,246.2 L94.0,237.5 L108.0,230.1 L122.0,223.6 L136.0,217.7 L150.0,212.2 L164.0,207.1 L178.0,202.3 L192.0,197.7 L206.0,193.4 L220.0,189.2 L234.0,185.2 L248.0,181.3 L262.0,177.5 L276.0,173.9 L290.0,170.4 L304.0,166.9 L318.0,163.6 L332.0,160.3 L346.0,157.1 L360.0,154.0 L374.0,150.9 L388.0,147.9 L402.0,145.0 L416.0,142.1 L430.0,139.2 L444.0,136.4 L458.0,133.7 L472.0,130.9 L486.0,128.3 L500.0,125.6 L514.0,123.0 L528.0,120.5 L542.0,117.9 L556.0,115.4 L570.0,113.0 L584.0,110.5 L598.0,108.1 L612.0,105.7 L612.0,441.9 L598.0,440.0 L584.0,438.1 L570.0,436.2 L556.0,434.2 L542.0,432.3 L528.0,430.3 L514.0,428.2 L500.0,426.1 L486.0,424.0 L472.0,421.9 L458.0,419.7 L444.0,417.4 L430.0,415.1 L416.0,412.8 L402.0,410.4 L388.0,408.0 L374.0,405.5 L360.0,403.0 L346.0,400.4 L332.0,397.7 L318.0,394.9 L304.0,392.1 L290.0,389.2 L276.0,386.2 L262.0,383.1 L248.0,379.8 L234.0,376.5 L220.0,373.0 L206.0,369.3 L192.0,365.5 L178.0,361.4 L164.0,357.1 L150.0,352.5 L136.0,347.6 L122.0,342.2 L108.0,336.2 L94.0,329.3 L80.0,321.2 L66.0,310.4 L52.0,284.2 Z" fill="#2DD4BF" fill-opacity="0.05"/>
+<path d="M52.0,284.2 L66.0,270.9 L80.0,265.3 L94.0,261.0 L108.0,257.4 L122.0,254.2 L136.0,251.3 L150.0,248.7 L164.0,246.2 L178.0,243.8 L192.0,241.6 L206.0,239.5 L220.0,237.5 L234.0,235.5 L248.0,233.7 L262.0,231.9 L276.0,230.1 L290.0,228.4 L304.0,226.8 L318.0,225.2 L332.0,223.6 L346.0,222.1 L360.0,220.6 L374.0,219.1 L388.0,217.7 L402.0,216.3 L416.0,214.9 L430.0,213.5 L444.0,212.2 L458.0,210.9 L472.0,209.6 L486.0,208.3 L500.0,207.1 L514.0,205.9 L528.0,204.7 L542.0,203.5 L556.0,202.3 L570.0,201.1 L584.0,200.0 L598.0,198.8 L612.0,197.7 L612.0,365.5 L598.0,364.5 L584.0,363.5 L570.0,362.5 L556.0,361.4 L542.0,360.4 L528.0,359.3 L514.0,358.2 L500.0,357.1 L486.0,356.0 L472.0,354.9 L458.0,353.7 L444.0,352.5 L430.0,351.3 L416.0,350.1 L402.0,348.9 L388.0,347.6 L374.0,346.3 L360.0,344.9 L346.0,343.6 L332.0,342.2 L318.0,340.7 L304.0,339.3 L290.0,337.7 L276.0,336.2 L262.0,334.6 L248.0,332.9 L234.0,331.1 L220.0,329.3 L206.0,327.4 L192.0,325.5 L178.0,323.4 L164.0,321.2 L150.0,318.8 L136.0,316.3 L122.0,313.5 L108.0,310.4 L94.0,306.9 L80.0,302.8 L66.0,297.4 L52.0,284.2 Z" fill="#2DD4BF" fill-opacity="0.09"/>
+<path d="M52.0,284.2 L66.0,257.4 L80.0,246.2 L94.0,237.5 L108.0,230.1 L122.0,223.6 L136.0,217.7 L150.0,212.2 L164.0,207.1 L178.0,202.3 L192.0,197.7 L206.0,193.4 L220.0,189.2 L234.0,185.2 L248.0,181.3 L262.0,177.5 L276.0,173.9 L290.0,170.4 L304.0,166.9 L318.0,163.6 L332.0,160.3 L346.0,157.1 L360.0,154.0 L374.0,150.9 L388.0,147.9 L402.0,145.0 L416.0,142.1 L430.0,139.2 L444.0,136.4 L458.0,133.7 L472.0,130.9 L486.0,128.3 L500.0,125.6 L514.0,123.0 L528.0,120.5 L542.0,117.9 L556.0,115.4 L570.0,113.0 L584.0,110.5 L598.0,108.1 L612.0,105.7" fill="none" stroke="#2DD4BF" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M52.0,284.2 L66.0,310.4 L80.0,321.2 L94.0,329.3 L108.0,336.2 L122.0,342.2 L136.0,347.6 L150.0,352.5 L164.0,357.1 L178.0,361.4 L192.0,365.5 L206.0,369.3 L220.0,373.0 L234.0,376.5 L248.0,379.8 L262.0,383.1 L276.0,386.2 L290.0,389.2 L304.0,392.1 L318.0,394.9 L332.0,397.7 L346.0,400.4 L360.0,403.0 L374.0,405.5 L388.0,408.0 L402.0,410.4 L416.0,412.8 L430.0,415.1 L444.0,417.4 L458.0,419.7 L472.0,421.9 L486.0,424.0 L500.0,426.1 L514.0,428.2 L528.0,430.3 L542.0,432.3 L556.0,434.2 L570.0,436.2 L584.0,438.1 L598.0,440.0 L612.0,441.9" fill="none" stroke="#2DD4BF" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M52.0,284.2 L66.0,270.9 L80.0,265.3 L94.0,261.0 L108.0,257.4 L122.0,254.2 L136.0,251.3 L150.0,248.7 L164.0,246.2 L178.0,243.8 L192.0,241.6 L206.0,239.5 L220.0,237.5 L234.0,235.5 L248.0,233.7 L262.0,231.9 L276.0,230.1 L290.0,228.4 L304.0,226.8 L318.0,225.2 L332.0,223.6 L346.0,222.1 L360.0,220.6 L374.0,219.1 L388.0,217.7 L402.0,216.3 L416.0,214.9 L430.0,213.5 L444.0,212.2 L458.0,210.9 L472.0,209.6 L486.0,208.3 L500.0,207.1 L514.0,205.9 L528.0,204.7 L542.0,203.5 L556.0,202.3 L570.0,201.1 L584.0,200.0 L598.0,198.8 L612.0,197.7" fill="none" stroke="#2DD4BF" stroke-opacity="0.5" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M52.0,284.2 L66.0,297.4 L80.0,302.8 L94.0,306.9 L108.0,310.4 L122.0,313.5 L136.0,316.3 L150.0,318.8 L164.0,321.2 L178.0,323.4 L192.0,325.5 L206.0,327.4 L220.0,329.3 L234.0,331.1 L248.0,332.9 L262.0,334.6 L276.0,336.2 L290.0,337.7 L304.0,339.3 L318.0,340.7 L332.0,342.2 L346.0,343.6 L360.0,344.9 L374.0,346.3 L388.0,347.6 L402.0,348.9 L416.0,350.1 L430.0,351.3 L444.0,352.5 L458.0,353.7 L472.0,354.9 L486.0,356.0 L500.0,357.1 L514.0,358.2 L528.0,359.3 L542.0,360.4 L556.0,361.4 L570.0,362.5 L584.0,363.5 L598.0,364.5 L612.0,365.5" fill="none" stroke="#2DD4BF" stroke-opacity="0.5" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="586" y="119" font-size="8" fill="#2DD4BF" fill-opacity="0.8">+2σ</text>
+<text x="586" y="211" font-size="8" fill="#2DD4BF" fill-opacity="0.9">+1σ</text>
+<text x="586" y="437" font-size="8" fill="#2DD4BF" fill-opacity="0.8">−2σ</text>
 
-<!-- iso-R contours (rise toward expiry) -->
-<path d="M52,154 C250,148 460,120 612,109" fill="none" stroke="#2DD4BF" stroke-opacity="0.55" stroke-width="1"/>
-<path d="M52,214 C250,205 460,190 612,181" fill="none" stroke="#5EEAD4" stroke-opacity="0.5" stroke-width="1"/>
-<path d="M52,247 C250,238 460,225 612,217" fill="none" stroke="#E6EEF7" stroke-opacity="0.75" stroke-width="1.4"/>
-<path d="M52,325 C250,300 460,268 612,253" fill="none" stroke="#FB7185" stroke-opacity="0.5" stroke-width="1"/>
-<text x="57" y="151" font-size="8" fill="#5EEAD4">+3R</text>
-<text x="57" y="211" font-size="8" fill="#5EEAD4">+1R</text>
-<text x="57" y="244" font-size="8" font-weight="bold" fill="#E6EEF7">B/E</text>
-<text x="57" y="322" font-size="8" fill="#FB7185">−1R</text>
+<!-- iso-R contours (solved from Black-Scholes) -->
+<path d="M52.0,208.9 L66.0,208.2 L80.0,207.6 L94.0,207.0 L108.0,206.3 L122.0,205.7 L136.0,205.1 L150.0,204.4 L164.0,203.8 L178.0,203.2 L192.0,202.5 L206.0,201.9 L220.0,201.3 L234.0,200.6 L248.0,200.0 L262.0,199.4 L276.0,198.8 L290.0,198.1 L304.0,197.5 L318.0,196.9 L332.0,196.3 L346.0,195.7 L360.0,195.1 L374.0,194.5 L388.0,193.9 L402.0,193.3 L416.0,192.8 L430.0,192.2 L444.0,191.7 L458.0,191.2 L472.0,190.7 L486.0,190.2 L500.0,189.7 L514.0,189.3 L528.0,189.0 L542.0,188.7 L556.0,188.4 L570.0,188.2 L584.0,188.1 L598.0,188.0 L612.0,187.9" fill="none" stroke="#2DD4BF" stroke-opacity="0.55" stroke-width="1"/>
+<path d="M52.0,243.6 L66.0,242.8 L80.0,241.9 L94.0,241.0 L108.0,240.2 L122.0,239.3 L136.0,238.4 L150.0,237.5 L164.0,236.6 L178.0,235.7 L192.0,234.8 L206.0,233.9 L220.0,233.0 L234.0,232.1 L248.0,231.2 L262.0,230.3 L276.0,229.3 L290.0,228.4 L304.0,227.5 L318.0,226.5 L332.0,225.6 L346.0,224.7 L360.0,223.7 L374.0,222.8 L388.0,221.8 L402.0,220.9 L416.0,219.9 L430.0,218.9 L444.0,218.0 L458.0,217.1 L472.0,216.1 L486.0,215.2 L500.0,214.3 L514.0,213.4 L528.0,212.5 L542.0,211.7 L556.0,211.0 L570.0,210.3 L584.0,209.8 L598.0,209.6 L612.0,209.5" fill="none" stroke="#5EEAD4" stroke-opacity="0.5" stroke-width="1"/>
+<path d="M52.0,265.6 L66.0,264.5 L80.0,263.5 L94.0,262.5 L108.0,261.4 L122.0,260.4 L136.0,259.3 L150.0,258.2 L164.0,257.2 L178.0,256.1 L192.0,255.0 L206.0,253.9 L220.0,252.8 L234.0,251.7 L248.0,250.5 L262.0,249.4 L276.0,248.3 L290.0,247.1 L304.0,245.9 L318.0,244.8 L332.0,243.6 L346.0,242.4 L360.0,241.2 L374.0,240.0 L388.0,238.7 L402.0,237.5 L416.0,236.3 L430.0,235.0 L444.0,233.7 L458.0,232.4 L472.0,231.2 L486.0,229.9 L500.0,228.6 L514.0,227.2 L528.0,226.0 L542.0,224.7 L556.0,223.4 L570.0,222.2 L584.0,221.2 L598.0,220.4 L612.0,220.2" fill="none" stroke="#E6EEF7" stroke-opacity="0.75" stroke-width="1.4"/>
+<path d="M52.0,294.3 L66.0,293.0 L80.0,291.7 L94.0,290.5 L108.0,289.2 L122.0,287.9 L136.0,286.6 L150.0,285.2 L164.0,283.9 L178.0,282.6 L192.0,281.2 L206.0,279.8 L220.0,278.4 L234.0,277.0 L248.0,275.6 L262.0,274.2 L276.0,272.7 L290.0,271.2 L304.0,269.7 L318.0,268.2 L332.0,266.7 L346.0,265.1 L360.0,263.5 L374.0,261.9 L388.0,260.3 L402.0,258.7 L416.0,257.0 L430.0,255.3 L444.0,253.5 L458.0,251.8 L472.0,249.9 L486.0,248.1 L500.0,246.2 L514.0,244.3 L528.0,242.3 L542.0,240.3 L556.0,238.2 L570.0,236.1 L584.0,234.0 L598.0,232.0 L612.0,231.0" fill="none" stroke="#FB7185" stroke-opacity="0.5" stroke-width="1"/>
+<rect x="49" y="198" width="23" height="13" rx="3" fill="#0A0F14" fill-opacity="0.82"/>
+<text x="53" y="207" font-size="8" fill="#5EEAD4">+3R</text>
+<rect x="49" y="233" width="23" height="13" rx="3" fill="#0A0F14" fill-opacity="0.82"/>
+<text x="53" y="242" font-size="8" fill="#5EEAD4">+1R</text>
+<rect x="49" y="255" width="23" height="13" rx="3" fill="#0A0F14" fill-opacity="0.82"/>
+<text x="53" y="264" font-size="8" fill="#E6EEF7" font-weight="bold">B/E</text>
+<rect x="287" y="260" width="23" height="13" rx="3" fill="#0A0F14" fill-opacity="0.82"/>
+<text x="291" y="269" font-size="8" fill="#FB7185">−1R</text>
 
 <!-- strike + current price lines -->
-<line x1="52" y1="253" x2="612" y2="253" stroke="#FBBF24" stroke-opacity="0.6" stroke-width="1" stroke-dasharray="6 4"/>
-<text x="608" y="250" font-size="8.5" fill="#FBBF24" text-anchor="end">K 565</text>
-<line x1="52" y1="285" x2="612" y2="285" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1" stroke-dasharray="2 3"/>
+<line x1="52" y1="247" x2="612" y2="247" stroke="#FBBF24" stroke-opacity="0.6" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="608" y="244" font-size="8.5" fill="#FBBF24" text-anchor="end">K 350</text>
+<line x1="52" y1="284" x2="612" y2="284" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1" stroke-dasharray="2 3"/>
 
 <!-- crosshair + tooltip -->
 <line x1="379" y1="104" x2="379" y2="446" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="2 3"/>
-<line x1="52" y1="181" x2="612" y2="181" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="2 3"/>
-<circle cx="379" cy="181" r="3" fill="#FFFFFF"/>
-<rect x="388" y="150" width="158" height="55" rx="5" fill="#0E1519" fill-opacity="0.97" stroke="#2DD4BF" stroke-width="1"/>
-<text x="398" y="167" font-size="9" fill="#93A4B3">578.00   @   Jul 16</text>
-<text x="398" y="183" font-size="11.5" font-weight="bold" fill="#2DD4BF">+1.0R   ·   +$650</text>
-<text x="398" y="198" font-size="8.5" fill="#93A4B3">~41% to reach  (≈ upper 1σ)</text>
+<line x1="52" y1="219" x2="612" y2="219" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="2 3"/>
+<circle cx="379" cy="219" r="3" fill="#FFFFFF"/>
+<rect x="388" y="188" width="164" height="55" rx="5" fill="#0E1519" fill-opacity="0.97" stroke="#2DD4BF" stroke-width="1"/>
+<text x="398" y="205" font-size="9" fill="#93A4B3">357.18   @   Aug 27</text>
+<text x="398" y="221" font-size="11.5" font-weight="bold" fill="#2DD4BF">+1.2R   ·   +$338</text>
+<text x="398" y="236" font-size="8.5" fill="#93A4B3">~15% to reach  (≈ upper 1.0σ)</text>
 
 <!-- live spot -->
-<circle cx="52" cy="285" r="13" fill="url(#spotGlow)"/>
-<circle cx="52" cy="285" r="5" fill="#2DD4BF" stroke="#0A0F14" stroke-width="1.4"/>
-<rect x="60" y="292" width="74" height="16" rx="3" fill="#0A0F14" fill-opacity="0.85"/>
-<text x="66" y="303" font-size="9" font-weight="bold" fill="#2DD4BF">SPY 559.20</text>
+<circle cx="52" cy="284" r="13" fill="url(#spotGlow)"/>
+<circle cx="52" cy="284" r="5" fill="#2DD4BF" stroke="#0A0F14" stroke-width="1.4"/>
+<rect x="60" y="291" width="84" height="16" rx="3" fill="#0A0F14" fill-opacity="0.85"/>
+<text x="66" y="302" font-size="9" font-weight="bold" fill="#2DD4BF">GOOG 340.69</text>
 </g>
 
 <!-- expiry payoff strip -->
 <rect x="624" y="104" width="40" height="342" rx="3" fill="url(#expiryGrad)" stroke="#1E2A33" stroke-width="1"/>
 <text x="644" y="100" font-size="7.5" fill="#5B6B7A" text-anchor="middle">EXPIRY</text>
-<line x1="624" y1="253" x2="664" y2="253" stroke="#FBBF24" stroke-opacity="0.7" stroke-width="1"/>
+<line x1="624" y1="247" x2="664" y2="247" stroke="#FBBF24" stroke-opacity="0.7" stroke-width="1"/>
 
 <!-- y-axis price labels -->
-<text x="47" y="107" font-size="8.5" fill="#5B6B7A" text-anchor="end">592</text>
-<text x="47" y="201" font-size="8.5" fill="#5B6B7A" text-anchor="end">575</text>
-<text x="47" y="256" font-size="8.5" fill="#5B6B7A" text-anchor="end">565</text>
-<text x="47" y="311" font-size="8.5" fill="#5B6B7A" text-anchor="end">555</text>
-<text x="47" y="394" font-size="8.5" fill="#5B6B7A" text-anchor="end">540</text>
-<text x="47" y="449" font-size="8.5" fill="#5B6B7A" text-anchor="end">530</text>
+<text x="47" y="107" font-size="8.5" fill="#5B6B7A" text-anchor="end">386</text>
+<text x="47" y="175" font-size="8.5" fill="#5B6B7A" text-anchor="end">369</text>
+<text x="47" y="242" font-size="8.5" fill="#5B6B7A" text-anchor="end">352</text>
+<text x="47" y="314" font-size="8.5" fill="#5B6B7A" text-anchor="end">334</text>
+<text x="47" y="381" font-size="8.5" fill="#5B6B7A" text-anchor="end">317</text>
+<text x="47" y="449" font-size="8.5" fill="#5B6B7A" text-anchor="end">300</text>
 
 <!-- x-axis date labels (macro) -->
-<text x="52" y="459" font-size="8.5" fill="#5B6B7A">now Jul 2</text>
-<text x="192" y="459" font-size="8.5" fill="#5B6B7A" text-anchor="middle">Jul 8</text>
-<text x="332" y="459" font-size="8.5" fill="#5B6B7A" text-anchor="middle">Jul 14</text>
-<text x="472" y="459" font-size="8.5" fill="#5B6B7A" text-anchor="middle">Jul 20</text>
-<text x="612" y="459" font-size="8.5" fill="#5B6B7A" text-anchor="end">Jul 26 exp</text>
+<text x="52" y="459" font-size="8.5" fill="#5B6B7A">now Aug 17</text>
+<text x="192" y="459" font-size="8.5" fill="#5B6B7A" text-anchor="middle">Aug 21</text>
+<text x="332" y="459" font-size="8.5" fill="#5B6B7A" text-anchor="middle">Aug 26</text>
+<text x="472" y="459" font-size="8.5" fill="#5B6B7A" text-anchor="middle">Aug 30</text>
+<text x="612" y="459" font-size="8.5" fill="#5B6B7A" text-anchor="end">Sep 4 exp</text>
 
 <!-- legend -->
 <rect x="52" y="467" width="9" height="9" rx="2" fill="#2DD4BF" fill-opacity="0.6"/>
@@ -158,28 +163,28 @@
 <text x="8" y="497" font-size="8.5" fill="#5B6B7A">LIVE GREEKS &amp; RISK</text>
 <g>
 <rect x="8" y="502" width="80" height="72" rx="5" fill="#0E1519" stroke="#1E2A33"/>
-<text x="48" y="533" font-size="15" font-weight="bold" fill="#2DD4BF" text-anchor="middle">+$390</text>
+<text x="48" y="533" font-size="15" font-weight="bold" fill="#FB7185" text-anchor="middle">−$189</text>
 <text x="48" y="558" font-size="9" fill="#93A4B3" text-anchor="middle">P&amp;L</text>
 <rect x="91" y="502" width="80" height="72" rx="5" fill="#0E1519" stroke="#1E2A33"/>
-<text x="131" y="533" font-size="15" font-weight="bold" fill="#2DD4BF" text-anchor="middle">+0.6R</text>
+<text x="131" y="533" font-size="15" font-weight="bold" fill="#FB7185" text-anchor="middle">-0.7R</text>
 <text x="131" y="558" font-size="9" fill="#93A4B3" text-anchor="middle">R multiple</text>
 <rect x="174" y="502" width="80" height="72" rx="5" fill="#0E1519" stroke="#1E2A33"/>
-<text x="214" y="533" font-size="15" font-weight="bold" fill="#FBBF24" text-anchor="middle">44%</text>
+<text x="214" y="533" font-size="15" font-weight="bold" fill="#FBBF24" text-anchor="middle">22%</text>
 <text x="214" y="558" font-size="9" fill="#93A4B3" text-anchor="middle">POP</text>
 <rect x="257" y="502" width="80" height="72" rx="5" fill="#0E1519" stroke="#1E2A33"/>
-<text x="297" y="533" font-size="15" font-weight="bold" fill="#E6EEF7" text-anchor="middle">0.38</text>
+<text x="297" y="533" font-size="15" font-weight="bold" fill="#E6EEF7" text-anchor="middle">35</text>
 <text x="297" y="558" font-size="9" fill="#93A4B3" text-anchor="middle">Delta</text>
 <rect x="340" y="502" width="80" height="72" rx="5" fill="#0E1519" stroke="#1E2A33"/>
-<text x="380" y="533" font-size="15" font-weight="bold" fill="#FB7185" text-anchor="middle">−$14</text>
+<text x="380" y="533" font-size="15" font-weight="bold" fill="#FB7185" text-anchor="middle">−$22</text>
 <text x="380" y="558" font-size="9" fill="#93A4B3" text-anchor="middle">Theta / day</text>
 <rect x="423" y="502" width="80" height="72" rx="5" fill="#0E1519" stroke="#1E2A33"/>
-<text x="463" y="533" font-size="15" font-weight="bold" fill="#E6EEF7" text-anchor="middle">$38</text>
+<text x="463" y="533" font-size="15" font-weight="bold" fill="#E6EEF7" text-anchor="middle">$28</text>
 <text x="463" y="558" font-size="9" fill="#93A4B3" text-anchor="middle">Vega</text>
 <rect x="506" y="502" width="80" height="72" rx="5" fill="#0E1519" stroke="#1E2A33"/>
-<text x="546" y="533" font-size="15" font-weight="bold" fill="#E6EEF7" text-anchor="middle">12.0%</text>
+<text x="546" y="533" font-size="15" font-weight="bold" fill="#E6EEF7" text-anchor="middle">28.5%</text>
 <text x="546" y="558" font-size="9" fill="#93A4B3" text-anchor="middle">IV now</text>
 <rect x="589" y="502" width="80" height="72" rx="5" fill="#0E1519" stroke="#1E2A33"/>
-<text x="629" y="533" font-size="15" font-weight="bold" fill="#E6EEF7" text-anchor="middle">24d</text>
+<text x="629" y="533" font-size="15" font-weight="bold" fill="#E6EEF7" text-anchor="middle">17d</text>
 <text x="629" y="558" font-size="9" fill="#93A4B3" text-anchor="middle">to expiry</text>
 </g>
 </svg>
