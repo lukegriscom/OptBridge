@@ -10,7 +10,12 @@ in detail.
 
 ![Position Surface](assets/surface.png)
 
-> All screenshots show the built-in demo dataset (fixture mode), not a live account.
+> Screenshots run against the built-in demo dataset (fixture mode), not a live account.
+> The open position is a real contract — a WDC 09/04/26 500 call bought at 17.73, with the
+> underlying, mark, implied vol and greeks captured from the live options feed on
+> 2026-08-17. Account balances and closed trade history are synthetic.
+
+![Open positions](assets/positions.png)
 
 ## What it is
 
@@ -35,9 +40,11 @@ anchored to the live streaming mark.
 - **Mental-stop integration:** the stop is defined as a percentage of entry value; the
   surrendered amount becomes the true 1R and every contour re-bases onto it — the −1R
   contour *is* the stop line, drawn on the surface
-- Log-space auto-ranging (a 100%+ IV underlying breaks linear price ranges), horizon
-  toggle (Today / 1W / 2W / to-expiration), near-fullscreen expand, live greeks rail, and
-  a hover crosshair on a separate canvas layer so 1 Hz live re-renders never fight the mouse
+- Log-space auto-ranging (a 100%+ IV underlying breaks linear price ranges) with manual
+  Y-axis override — the shot above is framed to 400–680 so the iso-R fan is legible, since
+  a 77% IV name's full ±2σ range squashes it. Plus a horizon toggle (Today / 1W / 2W /
+  to-expiration), near-fullscreen expand, live greeks rail, and a hover crosshair on a
+  separate canvas layer so 1 Hz live re-renders never fight the mouse
 - Multi-leg positions aggregate into one surface; a "Considering" mode renders
   hypothetical entries through the same engine before any order exists
 
@@ -65,7 +72,7 @@ Designed as a static mockup first, then built to match:
 - **Alert layer** (ntfy push to phone): mental-stop hit, hourly session digests, relative
   IV spike/drop — all gated behind a **stream-staleness watchdog**, because an alert
   engine reading a frozen mark is worse than no alert engine at all.
-- **Reliability discipline:** 120 unit tests; injected clock (no `datetime.now()` in
+- **Reliability discipline:** 122 unit tests; injected clock (no `datetime.now()` in
   business logic); realized P&L computed only from the transaction ledger, never from
   marks; runs windowless as a logon task with auto-restart.
 
@@ -101,7 +108,7 @@ Python 3.11 · FastAPI + uvicorn · SQLite (WAL) · SQLAlchemy 2 / Pydantic v2 �
 pandas / NumPy / SciPy · TastyTrade SDK + DXLink websockets · single-file vanilla-JS
 canvas dashboard (no framework) · PyInstaller
 
-~4,500 lines of application Python, a ~1,400-line dashboard, 120 tests.
+~4,500 lines of application Python, a ~1,400-line dashboard, 122 tests.
 
 ---
 
